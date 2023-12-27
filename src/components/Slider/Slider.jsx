@@ -34,7 +34,7 @@ const Slider = () => {
                 <span>{slide.name}</span>
                 <span>{slide.detail}</span>
               </div>
-              <span>{slide.price}</span>
+              <span>{slide.price}$</span>
               <div>Shop now</div>
             </div>
             <img src={slide.img} alt="Product" className="img-p" />
